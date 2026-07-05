@@ -1,0 +1,690 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:#0a2342;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 40px;
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+.logo h2{
+    font-size:28px;
+}
+
+.logo span{
+    color:#f4c400;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffd000;
+}
+
+.wa-btn{
+    background:#1ebc4f;
+    color:white;
+    text-decoration:none;
+    padding:12px 22px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.wa-btn:hover{
+    background:#159d40;
+}
+
+/* HERO */
+
+.hero{
+    padding:35px;
+}
+
+.hero-box{
+    background:#b50000;
+    color:white;
+    text-align:center;
+    padding:45px;
+    border-radius:12px;
+    border-bottom:8px solid gold;
+}
+
+.hero-box h1{
+    font-size:64px;
+    margin-bottom:18px;
+}
+
+.hero-box h2{
+    color:#ffd000;
+    margin-bottom:18px;
+    font-size:38px;
+}
+
+.hero-box p{
+    font-size:24px;
+    font-style:italic;
+}
+
+/* CARD */
+
+.container{
+    width:95%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(420px,1fr));
+    gap:25px;
+    margin-top:25px;
+    margin-bottom:40px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+}
+
+.card-title{
+    background:#082c57;
+    color:white;
+    padding:18px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.card ul{
+    list-style:none;
+}
+
+.card li{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 20px;
+    border-bottom:1px dashed #ddd;
+    font-size:19px;
+}
+
+.card span{
+    color:#c40000;
+    font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+    background:#082c57;
+    color:white;
+    text-align:center;
+    padding:35px;
+}
+
+footer h2{
+    margin-bottom:15px;
+}
+
+footer p{
+    margin:10px 0;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.navbar{
+    flex-direction:column;
+    gap:15px;
+}
+
+.hero-box h1{
+    font-size:42px;
+}
+
+.hero-box h2{
+    font-size:28px;
+}
+
+.container{
+    grid-template-columns:1fr;
+}
+
+.card li{
+    font-size:17px;
+}
+
+}/* ===============================
+MASTER BAJA BANGUNAN
+=============================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#f3f5f8;
+    color:#222;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    width:95%;
+    max-width:1400px;
+    margin:auto;
+}
+
+/* ===============================
+NAVBAR
+=============================== */
+
+header{
+    background:#082a63;
+    position:sticky;
+    top:0;
+    z-index:999;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+.logo{
+    color:#FFD200;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#fff;
+}
+
+.menu{
+    display:flex;
+    gap:35px;
+}
+
+.menu a{
+    color:#fff;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.menu a:hover{
+    color:#FFD200;
+}
+
+.whatsapp{
+    background:#1fb141;
+    color:#fff;
+    padding:12px 24px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+/* ===============================
+HERO
+=============================== */
+
+.hero{
+    background:linear-gradient(#d10000,#b60000);
+    color:#fff;
+    text-align:center;
+    margin:25px auto;
+    border-radius:12px;
+    padding:45px 20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.hero h1{
+    font-size:64px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    color:#FFD200;
+    font-size:38px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:24px;
+}
+
+/* ===============================
+GRID PRODUK
+=============================== */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    margin:30px auto;
+}
+
+.card{
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.card-title{
+    background:#082a63;
+    color:#fff;
+    padding:16px;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.card table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.card td{
+    padding:15px;
+    border-bottom:1px solid #ececec;
+    font-size:19px;
+}
+
+.card td:last-child{
+    color:#d50000;
+    text-align:right;
+    font-weight:bold;
+}
+
+.card tr:hover{
+    background:#f8f8f8;
+}/* ===============================
+FOOTER
+=============================== */
+
+.footer{
+    margin-top:40px;
+    background:#ffffff;
+    border:3px solid #f1c40f;
+    border-radius:15px;
+    padding:30px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.footer-left{
+    flex:2;
+}
+
+.footer-left h2{
+    color:#c40000;
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.footer-left p{
+    font-size:20px;
+    margin:15px 0;
+    line-height:1.6;
+}
+
+.payment-box{
+    background:#dff5d8;
+    color:#006b1b;
+    padding:15px;
+    border-radius:10px;
+    margin:20px 0;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.note{
+    color:#666;
+    font-style:italic;
+}
+
+.footer-right{
+    text-align:center;
+}
+
+.footer-right img{
+    width:180px;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+
+.footer-right h3{
+    margin-top:15px;
+    color:#c40000;
+    font-size:24px;
+}
+
+/* ===============================
+COPYRIGHT
+=============================== */
+
+.copyright{
+    margin-top:30px;
+    background:#082a63;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    flex-wrap:wrap;
+}
+
+.copyright-left h2{
+    color:#FFD200;
+    font-size:24px;
+    line-height:1.2;
+}
+
+.copyright-left span{
+    color:#fff;
+}
+
+.copyright-center{
+    font-size:18px;
+}
+
+.copyright-right{
+    display:flex;
+    gap:15px;
+}
+
+.copyright-right a{
+    width:45px;
+    height:45px;
+    background:#fff;
+    color:#082a63;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    transition:.3s;
+}
+
+.copyright-right a:hover{
+    background:#FFD200;
+    transform:scale(1.1);
+}
+
+/* ===============================
+BUTTON HOVER
+=============================== */
+
+button,
+.whatsapp{
+    transition:.3s;
+}
+
+button:hover,
+.whatsapp:hover{
+    transform:translateY(-2px);
+    opacity:.9;
+}
+
+/* ===============================
+RESPONSIVE
+=============================== */
+
+@media(max-width:992px){
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .menu{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .hero h2{
+        font-size:28px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    .footer-container{
+        flex-direction:column;
+    }
+
+    .copyright{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .card td{
+        font-size:15px;
+        padding:10px;
+    }
+
+    .card-title{
+        font-size:20px;
+    }
+
+    .hero{
+        padding:30px 15px;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero h2{
+        font-size:22px;
+    }
+
+    .footer-left h2{
+        font-size:28px;
+    }
+
+}/* ===============================
+BADGE HOT & PROMO
+=============================== */
+
+.badge-hot{
+    background:#e60000;
+    color:#fff;
+    padding:4px 10px;
+    border-radius:6px;
+    font-size:12px;
+    font-weight:bold;
+    margin-left:8px;
+}
+
+.badge-sale{
+    background:#ff9900;
+    color:#fff;
+    padding:4px 10px;
+    border-radius:6px;
+    font-size:12px;
+    font-weight:bold;
+    margin-left:8px;
+}
+
+/* ===============================
+CARD EFFECT
+=============================== */
+
+.card{
+    transition:0.35s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+}
+
+/* ===============================
+TABLE
+=============================== */
+
+table tr{
+    transition:.25s;
+}
+
+table tr:hover{
+    background:#f7f9fc;
+}
+
+table td:first-child{
+    font-weight:600;
+}
+
+table td:last-child{
+    color:#d40000;
+    font-weight:bold;
+}
+
+/* ===============================
+SCROLL
+=============================== */
+
+html{
+    scroll-behavior:smooth;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#eee;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#082a63;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#d10000;
+}
+
+/* ===============================
+ANIMATION
+=============================== */
+
+.hero{
+    animation:fadeDown .8s;
+}
+
+.card{
+    animation:fadeUp .8s;
+}
+
+@keyframes fadeDown{
+
+    from{
+        opacity:0;
+        transform:translateY(-40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+/* ===============================
+SHADOW
+=============================== */
+
+.hero,
+.card,
+.footer{
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+/* ===============================
+SELECTION
+=============================== */
+
+::selection{
+    background:#FFD200;
+    color:#082a63;
+}.search-box{
+    width:90%;
+    max-width:800px;
+    margin:30px auto;
+    text-align:center;
+}
+
+.search-box input{
+    width:100%;
+    padding:18px;
+    border-radius:50px;
+    border:none;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+    font-size:18px;
+}
